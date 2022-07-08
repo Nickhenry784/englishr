@@ -48,6 +48,7 @@ const Play = ({navigation, route}) => {
             navigation.goBack();
           },3000);
         }
+        clearTimeout(timeOut);
       }
     }, 1000);
     return () => {

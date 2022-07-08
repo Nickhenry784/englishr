@@ -38,11 +38,6 @@ const Home = () => {
   const points = useSelector(state => state.points);
   const dispatch = useDispatch();
 
-
-  useEffect(() => {
-    console.log(points);
-  },[]);
-
   const onClickStartButton = () => {
     if (points.value === 0) {
       Alert.alert('Please buy more turn');

@@ -1,4 +1,4 @@
-package com.isabelleoberbrunner.englishvsexercise;
+package com.amazon.englishvsexercise;
 
 import com.facebook.react.ReactActivity;
 
